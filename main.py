@@ -6,7 +6,7 @@ app = FastAPI()
 
 # CORS settings
 origins = [
-    "*",  # Sab origins allow — production mein isko specific domains tak limit karein
+    "https://test1-fawn-zeta.vercel.app",  # Sab origins allow — production mein isko specific domains tak limit karein
 ]
 
 app.add_middleware(
